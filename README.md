@@ -110,29 +110,3 @@ The backend server should now be running at `http://localhost:3000`.
 
 Feel free to reach out if you have any questions or need help setting up the application. Happy coding!
 
-
-
-
-vehicle-management-dashboard/
-├── backend/
-│   ├── models/
-│   │   └── Vehicle.js
-│   ├── routes/
-│   │   └── vehicle.js
-│   ├── .env
-│   ├── server.js
-│   └── package.json
-├── frontend/
-│   ├── src/
-│   │   ├── Dashboard.jsx
-│   │   ├── Addcar.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   ├── Updatestatusvahicle.jsx
-│   ├── public/
-│   ├── package.json
-│   ├── vite.config.js
-│   └── index.html
-├── README.md
-└── .gitignore
