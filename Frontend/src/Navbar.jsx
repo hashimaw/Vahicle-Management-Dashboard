@@ -9,9 +9,7 @@ function Navbar(){
           <span class="block md:inline-block text-sky-500 text-xl md:text-2xl font-extrabold">Dashboard</span>
         </div>
       </a>
-  
-
-  
+      fd
   
 </div>
         </>
