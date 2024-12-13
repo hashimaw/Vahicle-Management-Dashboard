@@ -1,7 +1,7 @@
 import { Skeleton, Menu } from '@mantine/core';
 import { useQuery } from '@tanstack/react-query'
 import Addcar from './Addcar';
-import Updatestatusvahicle from '../Updatestatusvahicle';
+import Updatestatusvahicle from './Updatestatusvahicle';
 
 const Dashboard = () => {
 
