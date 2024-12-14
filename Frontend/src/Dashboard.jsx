@@ -8,7 +8,7 @@ const Dashboard = () => {
     const { isPending, error, data } = useQuery({
         queryKey: ['vehicles'],
         queryFn: () =>
-          fetch(`http://localhost:3000/vehicles/all`).then((res) =>
+          fetch(`https://vahicle-management-dashboard.onrender.com/vehicles/all`).then((res) =>
             res.json(),
           ),
           enabled: true,

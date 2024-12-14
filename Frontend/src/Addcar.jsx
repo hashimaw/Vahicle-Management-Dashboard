@@ -25,7 +25,7 @@ const Addcar = () =>{
 
         const {mutate, isPending, error } = useMutation({
             mutationFn: (newPost) => 
-              fetch(`http://localhost:3000/vehicles/add`, {
+              fetch(`https://vahicle-management-dashboard.onrender.com/vehicles/add`, {
                 method: "POST",
                 body: JSON.stringify(newPost),
                 headers: {"Content-type": "application/json; charset=UTF-8"}

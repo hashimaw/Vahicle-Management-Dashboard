@@ -22,7 +22,7 @@ const Updatestatusvahicle = ({vehicle}) =>{
         
         const {mutate, isPending, error } = useMutation({
             mutationFn: (newPost) => 
-              fetch(`http://localhost:3000/vehicles/updatestatus/${vehicle._id}`, {
+              fetch(`https://vahicle-management-dashboard.onrender.com/vehicles/updatestatus/${vehicle._id}`, {
                 method: "PATCH",
                 body: JSON.stringify(newPost),
                 headers: {"Content-type": "application/json; charset=UTF-8"}
